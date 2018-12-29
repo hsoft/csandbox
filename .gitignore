@@ -1,3 +1,4 @@
 /icu/upper
 /glibc/sort
 /glibc/memmove
+/glibc/hashmap
