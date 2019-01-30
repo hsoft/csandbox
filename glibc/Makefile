@@ -1,6 +1,6 @@
 FLAGS = 
 
-TARGETS = sort memmove hashmap
+TARGETS = sort memmove hashmap regex
 
 .PHONY: all
 all: $(TARGETS)
@@ -8,6 +8,7 @@ all: $(TARGETS)
 sort: sort.c
 memmove: memmove.c
 hashmap: hashmap.c
+regex: regex.c
 	$(CC) $^ $(FLAGS) -o $@
 
 .PHONY: clean

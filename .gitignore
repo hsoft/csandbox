@@ -2,3 +2,4 @@
 /glibc/sort
 /glibc/memmove
 /glibc/hashmap
+/glibc/regex
