@@ -3,3 +3,4 @@
 /glibc/memmove
 /glibc/hashmap
 /glibc/regex
+/c/bitfield
